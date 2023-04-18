@@ -16,6 +16,7 @@
 		9651DF9029ED32FB000719F6 /* SwiftTmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651DF8F29ED32FB000719F6 /* SwiftTmaTests.swift */; };
 		9651DF9A29ED32FB000719F6 /* SwiftTmaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651DF9929ED32FB000719F6 /* SwiftTmaUITests.swift */; };
 		9651DF9C29ED32FB000719F6 /* SwiftTmaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651DF9B29ED32FB000719F6 /* SwiftTmaUITestsLaunchTests.swift */; };
+		A719C99C29EE5317000921E7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A719C99B29EE5317000921E7 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9651DF9529ED32FB000719F6 /* SwiftTmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTmaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9651DF9929ED32FB000719F6 /* SwiftTmaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTmaUITests.swift; sourceTree = "<group>"; };
 		9651DF9B29ED32FB000719F6 /* SwiftTmaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTmaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A719C99B29EE5317000921E7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				9651DF8129ED32FA000719F6 /* Assets.xcassets */,
 				9651DF8329ED32FA000719F6 /* LaunchScreen.storyboard */,
 				9651DF8629ED32FA000719F6 /* Info.plist */,
+				A719C99B29EE5317000921E7 /* SecondViewController.swift */,
 			);
 			path = SwiftTma;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A719C99C29EE5317000921E7 /* SecondViewController.swift in Sources */,
 				9651DF7D29ED32EE000719F6 /* ViewController.swift in Sources */,
 				9651DF7929ED32EE000719F6 /* AppDelegate.swift in Sources */,
 				9651DF7B29ED32EE000719F6 /* SceneDelegate.swift in Sources */,
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y338K7PTJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftTma/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -465,6 +470,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y338K7PTJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftTma/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
