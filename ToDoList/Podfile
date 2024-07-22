@@ -7,6 +7,9 @@ target 'ToDoList' do
 
   # Pods for ToDoList
   pod 'FirebaseCore', :modular_headers => true
+  pod 'Firebase/Auth'
+  pod 'FirebaseFirestore'
+  pod 'FirebaseFirestoreSwift'
 
   target 'ToDoListTests' do
     inherit! :search_paths
